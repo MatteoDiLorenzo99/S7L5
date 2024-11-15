@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Epizon - Homepage</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/sketchy/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-info vh-100">
+    <div id="top" class="container-fluid g-0">
+        <header class="row mb-5 mx-1">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark ps-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">Epizon</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor01">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./index.html">Home
+                                    <span class="visually-hidden">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./back_office.html?edit=0">BackOffice</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="row mx-sm-2">
+            <h1 class="display-1 text-black text-center mt-2 mb-3">Welcome in Our Shop!</h1>
+            <div class="spinner-border d-block mx-auto mt-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <section id="cardsSection"
+                class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-xl-3 row-cols-xxl-4 row-cols-xxl-5 align-items-center px-lg-5 gx-5 ">
+
+            </section>
+            <a id="goUp" class="text-black text-lg-center d-none mb-4 mr-5" href="#top">
+                <h2 class="text-end text-lg-center pe-5">Back to top</h2>
+            </a>
+        </main>
+    </div>
+   <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
